@@ -15,7 +15,7 @@ The script comes in three basic flavors: the default full install for Mac OS, th
 Paste this script into a Terminal prompt:
 
 ```
-bash <(curl -sL https://raw.githubusercontent.com/ga-instructors/installfest_script/version2/mac)
+bash <(curl -sL https://raw.githubusercontent.com/harimohanraj89/installfest_script/version2/mac)
 ```
 
 ##### For Ubuntu Linux
@@ -23,13 +23,13 @@ bash <(curl -sL https://raw.githubusercontent.com/ga-instructors/installfest_scr
 If you aren't familiar with Linux, then make sure to read "[Getting Started with Ubuntu][ubuntu]." Otherwise, just paste this script into a Terminal prompt:
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/ga-instructors/installfest_script/version2/ubuntu)
+bash <(wget -qO- https://raw.githubusercontent.com/harimohanraj89/installfest_script/version2/ubuntu)
 ```
 
 If you are a Linux user already, and only want to install our common Ruby environment, paste this script into a Terminal prompt:
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/ga-instructors/installfest_script/version2/ubuntu-rubyonly)
+bash <(wget -qO- https://raw.githubusercontent.com/harimohanraj89/installfest_script/version2/ubuntu-rubyonly)
 ```
 
 #### A successful install
@@ -320,7 +320,7 @@ http://i.stack.imgur.com/krD8y.jpg (--> need to host this!)
 - Run the installfest script:
 
 ```bash
-bash <( wget -qO- https://raw.githubusercontent.com/ga-instructors/installfest_script/ubuntu-merge/ubuntu)
+bash <( wget -qO- https://raw.githubusercontent.com/harimohanraj89/installfest_script/ubuntu-merge/ubuntu)
 ```
 
 ### Learn the Unity desktop
