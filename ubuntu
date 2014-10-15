@@ -207,9 +207,9 @@ Or close the wall up with our English dead."
 "--Henry V (III.i)"
 )
 HOW_NOW_NODE=(
-"But that my heart's on future mischief set, 
-I would speak blasphemy ere bid you fly: 
-But fly you must; uncurable discomfit 
+"But that my heart's on future mischief set,
+I would speak blasphemy ere bid you fly:
+But fly you must; uncurable discomfit
 Reigns in the hearts of all our present parts."
 "--Henry VI, Part 2 (V.ii)"
 )
@@ -217,7 +217,7 @@ HOW_NOW_GIT=(
 "HAMLET: ... for you yourself, sir,
 should be old as I am if, like a crab, you could go backward.
 
-POLONIUS: [aside] Though this be madness, yet there is a method in't.- 
+POLONIUS: [aside] Though this be madness, yet there is a method in't.-
 Will You walk out of the air, my lord?"
 "--Hamlet (II.ii)"
 )
@@ -674,7 +674,26 @@ sudo apt-get -y install vim
 
 sudo apt-get -y install emacs
 
+# ATOM TRIAL
+# atom
+# Requires 64-bit
+# ensure that gyp uses Python 2
+sudo npm config set python /usr/bin/python2 -g
+git clone https://github.com/atom/atom
+cd atom
+# TMPDIR=~/.wdi/tmp
+# Creates application at $TMPDIR/atom-build/Atom
+# TODO (phlco) move to /usr/bin
+script/build
+# Installs command to /usr/local/bin/atom
+sudo script/grunt install
+# Generates a .deb package at $TMPDIR/atom-build
+script/grunt mkdeb
+# TODO (phlco) command line tool for atom?
+# sudo dpkg -i $TMPDIR/atom-build/Atom.deb
 
+# TODO (pj) remove all this junk and just install with apt-get now!
+# END ATOM TRIAL
 
 quoth_the_bard "${HOW_NOW_DB[@]}"
 
@@ -756,4 +775,3 @@ quoth_the_bard "${HOW_NOW_FINISH[@]}"
 
 echo "We're done!"
 echo "#-- fin -- #"
-
